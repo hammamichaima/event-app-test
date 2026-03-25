@@ -1,5 +1,15 @@
 # Event App — Test Technique Fullstack
 
+
+Application fullstack permettant de gérer des événements avec inscription utilisateur.
+
+##  Fonctionnalités principales
+- Gestion des événements (CRUD)
+- Authentification utilisateur (JWT)
+- Inscription à des événements
+- Application mobile connectée à l’API
+
+
 ## Structure du projet
 ```
 event-app-test/
@@ -83,3 +93,8 @@ npx expo start
 ## Technologies utilisées
 - **Backend / Web** : Next.js, PostgreSQL (Neon), bcryptjs, jsonwebtoken
 - **Mobile** : React Native, Expo, Expo Router
+
+##  Améliorations possibles
+- Ajout de tests unitaires
+- Pagination des événements
+- Déploiement (Vercel + Expo)
